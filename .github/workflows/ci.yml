@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-job:
+jobs:
   call-hello-template:
     uses: ./.github/workflows/hello_template.yml
     with:
